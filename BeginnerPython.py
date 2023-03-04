@@ -67,3 +67,13 @@ print(age)
 # print('hi' and 'hey') 'hey'
 # print([] and False) []
 # print(False and []) False
+
+# ternary operator allows you to quickly define a conditional
+# def is_adult(age): ---> slow way to do it without a ternary
+#     if age > 18:
+#         return True
+#     else:
+#         return False
+
+# def is_adult2(age):
+#     return True if age > 18 else False --> basically an if else all on a single line
